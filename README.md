@@ -4,12 +4,14 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 
+
 ## 🎯 Objetivo do Projeto
 REalizar a segmentação de risco de crédito de empresas listadas na B3 (Dados CVM) utilizando algoritmos de Machine Learning. 
 
 ---
 
 ## 🗂️ Dicionário de Dados
+**Fonte Oficial:** [Dados Abertos CVM](https://dados.cvm.gov.br/) 
 Os dados brutos foram extraídos das demonstrações financeiras (DFP) da CVM. Abaixo, a descrição das variáveis utilizadas:
 
 ### 1. Identificação e Dados Brutos
@@ -29,6 +31,8 @@ Para a clusterização, foram criados indicadores fundamentais de análise de cr
 | **Dívida Líquida** | `Dívida Total - Caixa` | O valor real da dívida descontando o que a empresa tem em caixa. |
 | **Alavancagem Financeira** | `Dívida Líquida / Ebit` | **Principal driver.** Quantos anos de geração de caixa (EBIT) a empresa levaria para pagar sua dívida. <br>• *Quanto maior, maior o risco.* |
 | **Margem Líquida** | `Lucro / Receita` | Eficiência operacional. Quanto sobra de lucro para cada R$ 1 vendido. <br>• *Quanto maior, menor o risco.* |
+Obs.: foram baixados vários arquivos da CVM e compilados em um único arquivo para a finalidade deste projeto. 
+
 
 ---
 
