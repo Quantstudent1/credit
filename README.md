@@ -54,6 +54,9 @@ Para validar a robustez da segmentação, foram testadas duas abordagens:
 ## 📊 Visualização dos Resultados
 O modelo gerou a imagem da Matriz de Risco, exportada para o Power BI para tomada de decisão executiva:
 
+<img width="1187" height="658" alt="image" src="https://github.com/user-attachments/assets/7bd979f2-4100-4d78-b088-dda19b01c41e" />
+
+
 ---
 ## 🚀 Conclusão e Aplicação de Negócio
 A clusterização permitiu segmentar a carteira de 397 empresas em 4 perfis de risco distintos:
